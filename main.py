@@ -12,7 +12,7 @@ import requests
 class TinderSwindler:
     def __init__(self):
         self.homepage = "https://tinder.com"
-        self.service = Service(r"D:/Users/setvo/ChromeDriver/chromedriver.exe")
+        self.service = Service(r"<path_to_chrome_driver>/chromedriver.exe")
         self.driver = Chrome(service=self.service)
         url = requests.get(self.homepage).text
         soup = BeautifulSoup(url, "html.parser")
