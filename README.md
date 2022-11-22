@@ -1,7 +1,9 @@
 # tinder_bot
 The basic version of swiper for Tinder
 
-It requires Tinder account connected to Facebook, because it's easier for Selenium to pass security.
+It requires:
+- registered and connected to Facebook account
+- chromedriver (can be downloaded here: https://chromedriver.chromium.org/downloads)
 
 Features:
 - clean GUI
