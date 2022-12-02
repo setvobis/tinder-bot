@@ -14,7 +14,8 @@ import requests
 class TinderSwindler:
     def __init__(self):
         self.homepage = "https://tinder.com"
-        self.service = Service(r"D:/Users/setvo/ChromeDriver/chromedriver.exe")
+        # replace `path` with path for chromedriver.exe, e.g. "D:/Users/user/ChromeDriver/chromedriver.exe"
+        self.service = Service(r"path")
         self.ids = None
         self.driver = None
         self.end_time = None
